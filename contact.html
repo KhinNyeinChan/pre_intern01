@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<head>
+    <title>Contact Page</title>
+    <style>
+            .container{
+                width:100%;
+                height:100%;
+            }
+            .mainbody{
+                position:absolute;
+                top:240px;
+                left:0px;
+                width:100%;
+                height:130%;
+                padding:10px;
+            }
+            .header{
+                background-color:darkblue;
+                width:100%;
+                height:25%;
+                position:absolute;
+                margin: 0;
+
+            }
+            .logo_div1{
+                float: left;
+                width: 20%;
+                height: 50%;
+            }
+            .logo_div2{
+                float: left;
+                width: 20%;
+                height: 50%;
+            }
+            .title_div{
+                float: left;
+                font-size:larger;
+                width: 60%;
+                height: 50%;
+                text-align: center;
+            }
+            .heading1{
+                float: left;
+                width: 100%;
+                height: 30%;
+            }
+            .navbar{
+                position: absolute;
+                background-color:lavender;
+                top:170px;
+                left: 0px;
+                height:10%;
+                width:100%;
+            }
+            .navul{
+                padding-left:0 0 140px 0;
+            }
+            .navli{
+                float: left;
+                list-style: none;
+                padding:5px; 
+                height: 10%;        
+            }
+            a{
+                padding-left: 10px;
+                text-decoration: none;
+            }
+            .left{
+                float: left;
+                position: relative;
+                width: 40%;
+                height: 70%;
+                top: 30px;
+                left: 80px;
+            }
+            p{
+                padding-left: 50px;
+            }
+            .right{
+                top: 30px;
+                float: left;
+                position: relative;
+                width: 40%;
+                height: 70%;
+                left: 200px;
+            }
+            .form{
+                padding-left: 50px;
+                float: left;
+                position: relative;
+            }
+            .textbox{
+                width: 100%;
+            }
+            .footer{
+                position:fixed;
+                padding-top: 20px;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 50px;
+                background-color: darkblue;
+                color:yellow;
+                text-align: center;
+                font-size: 23px;
+            }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="heading1"><h4 style="color: yellow; text-align: center; font-weight: bold;">Journal of ICT in Multidisciplinary Issues on Arts & Science, Engineering,</h4></div> 
+            <div class="logo_div1"><img src="logo1.jpg" width="120px" height="100px" style="padding-left: 160px;"></div>
+            <div class="title_div"><h5 style="color: yellow; top: 0px;">Economics and Education(Volume-1)</h5></div>
+            <div class="logo_div2"><img src="logo2.png" width="160px" height="100px"></div>
+        </div>
+        <div class="navbar">
+            <ul class="navul">
+                <li class="navli"><a href="homePage.html">Home</a></li>
+                <li class="navli"><a href="#">Topics</a></li>
+                <li class="navli"><a href="#">Call For Papers</a></li>
+                <li class="navli"><a href="#">Editorial Board</a></li>
+                <li class="navli"><a href="#">Download Session</a></li>
+                <li class="navli"><a href="contactPage.html">Contact Us</a></li>
+        </div>
+        <div class="mainbody">
+            <div class="left">
+                <h1 style="padding-left: 50px;">Contact Us</h1>
+                <hr style="border:2px dotted;">
+                <p>Tel : +95 9-794065357,9-421037973<br>
+                    Email : journal@ucsh.edu.mm<br>
+                    Website : ujim-ucsh.org<br><br>
+                    <img src="img1.jpg" width="90%" height="400px">
+                </p>
+            </div>
+            <div class="right">
+                <div class="form">
+                    <h2 style="padding-top: 80px;">Get In Touch</h2>
+                    <form>
+                        <label>Your Name (required)</label><br>
+                        <input type="text" name="name" width="200px" height="15px" class="textbox"><br>
+                        <label>Your Email (required)</label><br>
+                        <input type="text" name="email" width="200px" height="15px" class="textbox"><br>
+                        <label>Subject</label><br>
+                        <input type="text" name="subject" width="200px" height="15px"class="textbox"><br>
+                        <label>Your Message</label><br>
+                        <textarea name="myTextBox" cols="50" rows="5"></textarea><br>
+                        <button style="height: 40px; width: 70px;">Sent</button>
+  
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="footer">&copy; UJIM - 2020</div>
+
+    </div>
+ 
+</body>
+</html>
