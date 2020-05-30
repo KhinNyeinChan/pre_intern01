@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <title>Test Attributes</title>
+    <style>
+        input[type=text]
+        {
+            background-color: cadetblue;
+        }
+        input[type=number]
+        {
+            background-color: chartreuse;
+        }
+        input[type=password]
+        {
+            background-color: darkgoldenrod;
+        }
+        button{
+            background-color: seagreen;
+            width: 100px;
+            height: 50px;
+            font-size: large;
+        }
+        button:hover{
+            background-color: turquoise;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form>
+            <input type="text" name="fname" placeholder="First Name"><br>
+            <input type="text" name="lname" placeholder="Last Name"><br>
+            <input type="number" name="age" placeholder="Age"><br>
+            <input type="password" name="password" placeholder="Password"><br>
+        </form>
+    </div>
+    <div>
+        Your Favourite Languages?<br>
+        <input type="radio" name="language" value="java">java
+        <input type="radio" name="language" value="python">Python
+        <input type="radio" name="language" value="php">PHP
+        <input type="radio" name="language" value="c">C
+        <input type="radio" name="language" value="perl">Perl
+    </div>
+    <div>
+        <input list="countries" name="country" placeholder="Country">
+        <datalist id="countries">
+            <option value="English(US)">
+            <option value="English(UK)">
+            <option value="Japan">
+            <option value="Russia">
+            <option value="Myanmar(Burma)">
+        </datalist><br>
+    </div>
+    <button>Submit</button>
+    <button>Clear</button>
+</body>
+</html>
