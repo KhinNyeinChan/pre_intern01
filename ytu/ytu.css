@@ -1,0 +1,248 @@
+.top{
+    background-color: gray;
+    height: 50px;
+}
+.links{
+    float: right;
+    padding-top: 10px;
+    padding-right: 13%;
+}
+a{
+    color: white;
+}
+.head{
+    display: flex;
+}
+.titleImg{
+    padding-left: 13%;
+}
+.navbar{
+    display: flex;
+    background-color:black;
+    top:170px;
+    left: 0px;
+    height:70px;
+    width:100%;
+}
+.navul{
+    padding-left:180px ;   
+}
+.navli{
+    float: left;
+    list-style: none;
+    padding-top:0; 
+    padding-left: 40px;
+    height: 10%; 
+    font-size: 14px;  
+    color: white;         
+}
+.imgslide{display: flex;}
+.midContent{
+    padding-left: 13%;
+    display: flex;
+}
+.objective{
+    box-shadow: 0px 2px 3px #cccccc;
+    border-radius: 5px ;
+    margin: 12px;
+    padding-left: 60px;
+    padding-right: 20px;
+    text-align: justify;
+    width:18%;
+    height: 360px;
+}
+.mission{
+    box-shadow: 5px 5px 5px #cccccc;
+    border-radius: 5px ;
+    margin-top: 12px;
+    margin-left: 50px;
+    padding-left: 60px;
+    padding-right: 20px;
+    text-align: justify;
+    width:18% ;
+    height: 360px;
+}
+.program{
+    box-shadow: 0px 2px 3px #cccccc;
+    border-radius: 5px ;
+    margin-top: 12px;
+    margin-left: 65px;
+    padding-left: 60px;
+    padding-right: 20px;
+    text-align: justify;
+    width: 18%;
+    height: 360px;
+}
+.mid{
+    font-size: 18px;
+}
+.btn{
+    background-color: darkorange;
+    width: 130px;
+    height: 30px;
+    bottom: 0;
+    float: right;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+.rector{
+    display: flex;
+}
+.rector1{
+    float: left;
+    padding-left: 14%;
+    padding-top: 20px;
+}
+.rector2{
+    float: left;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-right: 15%;
+}
+.event{
+    display: flex;
+}
+.event2{
+    display: flex;
+    width: 150%;
+}
+.eventImg1{
+    padding-left: 14%;
+}
+.eventImg2{
+    margin-left: 25px;
+}
+.eventImg3{
+    margin-left: 25px;
+}
+.eventImg4{
+    margin-left: 25px;
+    padding-right: 15%;
+}
+.event3{
+    display: flex;
+    float: right;
+    margin-right: 15%;
+
+}
+.btnEvent{
+    float: right;
+    background-color: darkorange;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+.welcome_title{
+    display: flex;
+    margin-left: 40%;
+    margin-top: 25px;
+}
+.welcome{
+    margin-left: 14%;
+    margin-right: 15%;
+}
+.btn1{
+    background-color: darkorange;
+    width: 130px;
+    height: 30px;
+    bottom: 0;
+    margin-left: 45%;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+.info{
+    display: flex;
+    background-image: url(ytuback.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+}
+.dept{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 14%;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    width: 330px;
+}
+.prof{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    width: 330px;
+}
+.stud{
+    margin-left: 14%;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    width: 330px;
+}
+.news{
+    margin: 0px 110px;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    border: 1px solid #999;
+    width: 40%;
+    margin: 8px 8px;
+    border-radius: 4px;
+    text-align: center;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container h3{
+    color: darkorange;
+    margin: 0px 0px 4px 0px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 20px;
+}
+.footer{
+    background-color: #444444;
+    display: flex;
+    height: 400px;
+    padding: 32px 110px;
+}
+.about{
+    color: white;
+    margin-left: 7%;
+    width: 30%;
+    text-align: justify;
+}
+.ourlink{
+    color: white;
+    width: 30%;
+    padding-left: 20px;
+}
+.ourlink a{text-decoration: none;}
+.recent{
+    color: white;
+    width: 30%;
+}
+.recent img{
+    float: left;
+    margin: 0px 12px;
+    width: 70px;
+    height: 70px;
+}
+.recent h4{
+    margin: 0px;
+}
