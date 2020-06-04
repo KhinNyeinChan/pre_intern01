@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Testing responsive</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @media print{
+                .screenonly{
+                    display: none;
+                }
+            }
+
+            @media (min-width: 600px){
+                p{
+                    background-color: brown;
+                }
+            }
+
+            @media (max-width: 599px){
+                p{
+                    background-color: chartreuse;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam dolorum sint possimus aliquam odit saepe, nihil natus incidunt labore vel optio alias voluptatum ducimus? Nemo voluptate sequi nesciunt at placeat.</p>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam dolorum sint possimus aliquam odit saepe, nihil natus incidunt labore vel optio alias voluptatum ducimus? Nemo voluptate sequi nesciunt at placeat.</p>
+            <p class="screenonly"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam dolorum sint possimus aliquam odit saepe, nihil natus incidunt labore vel optio alias voluptatum ducimus? Nemo voluptate sequi nesciunt at placeat.</p>
+    </div>
+
+    </body>
+</html>
