@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Testing arrow function in javascript</title>
+        <script>
+           document.addEventListener('DOMContentLoaded',() =>{
+                document.querySelectorAll('.color_change').forEach(option =>{
+                    option.onclick= () =>{
+                        document.querySelector('#hello').style.color=option.dataset.color;
+                    };
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h1 id="hello">Hello! Welcome to Our PreIntern Group.</h1>
+        <select>
+            <option  data-color="black" class="color_change">Black</option>
+            <option  data-color="red" class="color_change">Red</option>
+            <option  data-color="blue" class="color_change">Blue</option>
+            <option  data-color="green" class="color_change">Green</option>
+        </select>
+    </body>
+</html>
